@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+a {
+    color: #136EBB;
+}
+
 .navbar-default .navbar-brand {
     color: #DFDBB1;
 }
@@ -37,6 +41,14 @@ h6 {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #555;
     background-color: #E7E7E7;
+}
+
+.btn-default {
+    background-color: #DFDBB1;
+}
+
+.btn-default:hover {
+    background-color: #A7A485;
 }
 
 .topnav {
