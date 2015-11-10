@@ -66,9 +66,13 @@ a {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
+    display: table;
     color: #DFDBB1;
     background: url(../img/terminalAndSublimeBlur.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     height: 100%;
     width: 100%;
 }
